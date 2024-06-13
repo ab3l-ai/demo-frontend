@@ -14,7 +14,7 @@ This repository contains the front-end code for our blockchain AI service demo. 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/blockchain-ai-service-demo.git
+   git clone https://github.com/ab3l-ai/demo-frontend.git
    cd blockchain-ai-service-demo
    ```
 
