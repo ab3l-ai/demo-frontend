@@ -86,6 +86,3 @@ The application supports connecting with web3 wallets for secure transactions an
 
 We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
