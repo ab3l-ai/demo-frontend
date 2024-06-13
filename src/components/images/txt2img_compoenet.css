@@ -1,0 +1,52 @@
+.app-contain-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.component-container {
+    width: 100%;
+    margin-bottom: 20px;
+   
+}
+
+.title-section {
+    text-align: left;
+    margin-bottom: 10px;        
+}
+
+.num-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.image-list img {
+    /* height: 150px; */
+    margin: 10px;
+}
+
+/* Scrollbar styles */
+.image-list::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    background-color: #50cceb; /* Background of the scrollbar track */
+}
+
+.image-list::-webkit-scrollbar-thumb {
+background-color: #100ce9 !important; /* Default color of the scrollbar thumb */
+border-radius: 6px; /* Rounded corners */
+}
+
+.image-list:hover::-webkit-scrollbar-thumb {
+background-color: #100ce9 !important;  /* Color of the scrollbar thumb on hover */
+}
