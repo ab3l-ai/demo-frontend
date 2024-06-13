@@ -85,7 +85,7 @@ Users can interact with large language models to generate text-based content.
 The application supports connecting with web3 wallets for secure transactions and interactions with the blockchain.
 
 ## Screenshots
-![Screenshot](./path/to/your/screenshot.png)
+![Screenshot](./doc/NewHome.png)
 
 ## Contributing
 
