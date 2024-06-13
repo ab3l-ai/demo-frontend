@@ -24,12 +24,7 @@ This repository contains the front-end code for our blockchain AI service demo. 
    ```
 
 3. **Set up environment variables:**
-   Create a `.env.local` file in the root directory and add the following variables:
-   ```env
-   NEXT_PUBLIC_WEB3_PROVIDER_URL=your_web3_provider_url
-   NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
-   NEXT_PUBLIC_API_KEY=your_api_key
-   ```
+   Copy a `.env.example` file to .env file:
 
 ## Usage
 
