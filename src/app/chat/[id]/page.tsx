@@ -160,10 +160,11 @@ export default function Page({ params }: { params: { id: string } }) {
       },
     };
 
-    if (env === "production" && selectedModel !== "REST API") {
-      console.log("Product: ", e)
-      handleSubmitProduction(e);
-    } else {
+    // if (env === "production" && selectedModel !== "REST API") {
+    //   console.log("Product: ", e)
+    //   handleSubmitProduction(e);
+    // } else {
+    if(true){
       console.log("Else : ", e)
 
       // @ts-ignore
@@ -184,7 +185,7 @@ export default function Page({ params }: { params: { id: string } }) {
           if(results['status']){
             alert("Tx Confirmed, Estimated time: Up to 5 minutes");
             // handleSubmit(e as unknown as React.FormEvent<HTMLFormElement>);
-            handleSubmit(e, requestOptions);
+            handleSubmitProduction(e);
           }
           else{
             alert("Tx Failed")

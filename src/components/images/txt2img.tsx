@@ -155,7 +155,7 @@ export default function Txt2Img({
                 try{
                     axios.post(
                         // "http://0.0.0.0:8000/img/", 
-                        "/api/txt2img/",
+                        "/api_endpoint/txt2img/",
                         jsonData, 
                         {
                             headers: {

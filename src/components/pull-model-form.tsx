@@ -39,30 +39,32 @@ export default function PullModelForm() {
 
     setIsDownloading(true);
     // Send the model name to the server
-    if (env === "production") {
-      // Make a post request to localhost
-      const pullModel = async () => {
-        const response = await fetch(process.env.NEXT_PUBLIC_LLM_URL + "/api/pull", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        });
-        const json = await response.json();
-        if (json.error) {
-          toast.error("Error: " + json.error);
-          setIsDownloading(false);
-          return;
-        } else if (json.status === "success") {
-          toast.success("Model pulled successfully");
-          setIsDownloading(false);
-          return;
-        }
-      }
-      pullModel();
-    } else {
-      fetch("/api/model", {
+    // if (env === "production") {
+    //   // Make a post request to localhost
+    //   const pullModel = async () => {
+    //     const response = await fetch(process.env.NEXT_PUBLIC_LLM_URL + "/api/pull", {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //       body: JSON.stringify(data),
+    //     });
+    //     const json = await response.json();
+    //     if (json.error) {
+    //       toast.error("Error: " + json.error);
+    //       setIsDownloading(false);
+    //       return;
+    //     } else if (json.status === "success") {
+    //       toast.success("Model pulled successfully");
+    //       setIsDownloading(false);
+    //       return;
+    //     }
+    //   }
+    //   pullModel();
+    // } 
+    // else {
+    if(true){
+      fetch(process.env.NEXT_PUBLIC_LLM_URL + "/api/model", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
