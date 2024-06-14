@@ -14,7 +14,7 @@ import ChatList from "./chat-list";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { usePathname } from "next/navigation";
 import Txt2Img from "@/components/images/txt2img"
-import Main from "@/app/blocks/Main"
+import Main from "@/app/Main"
 
 interface ChatLayoutProps {
   defaultLayout: number[] | undefined;

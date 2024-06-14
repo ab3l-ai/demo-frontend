@@ -7,7 +7,7 @@ import { RootState } from '@/store/store';
 import Link from 'next/link'
 import TopMenu from '@/components/topMenu';
 import { time } from "console";
-import Main from "@/app/blocks/Main";
+import Main from "@/app/Main";
 import { ChatLayout } from "@/components/chat/chat-layout";
 
 export default function Home() {
